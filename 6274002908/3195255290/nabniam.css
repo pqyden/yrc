@@ -1,0 +1,1143 @@
+#discordapi,
+.c1 {
+    visibility: visible;
+}
+
+
+.p1,
+.spotify,
+audio {
+    display: none;
+
+}
+@font-face {
+    font-family: craft;
+    src: url(mine.otf) format("opentype");
+}
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background-color: #0f0f0f;
+    border-radius: 5px;
+}
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+/* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/others/oth-5/oth445.cur), auto !important;} /* End https://www.cursors-4u.com */
+.box {
+    width: 390px;
+    height: 480px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+    margin: 5% 30% auto auto;
+    color: #fff;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+    animation: shake 20s cubic-bezier(.36,.07,.19,.97) both;
+    animation-iteration-count: 5;
+    transform: translate3d(-220px, -380px, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    10%, 90% {
+      transform: translate3d(-240px, -380px, 0);
+    }
+    
+    20%, 80% {
+      transform: translate3d(-200px, -380px, 0);
+    }
+  
+    30%, 50%, 70% {
+      transform: translate3d(-220px, -400px, 0);
+    }
+  
+    40%, 60% {
+      transform: translate3d(-220px, -360px, 0);
+    }
+}
+    
+
+
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+
+.box:hover  {
+
+}
+ 
+  
+
+
+
+.box-img:hover {
+    transition: transform .6s; /* Animation */
+    transform: scale(1.1); /*  scale for pfp  */
+    filter: drop-shadow(0px 0px 10px #2c2c2c);
+  }
+
+
+
+.c1,
+.p1 {
+    font-family: 'Poppins';
+    font-size: 1.7rem;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 20px auto 0;
+    animation: 3s steps(55) infinite typing, 0.75s step-end infinite blink-caret;
+    letter-spacing: 0;
+    font-weight: 100;
+}
+.box-img {
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    padding: 0;
+    margin: 20px auto 0;
+    transition: transform .6s; /* Animation */
+}
+.no-hover,
+.p1,
+.spotify {
+    visibility: collapse;
+}
+#enter,
+.inside {
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+@keyframes typing {
+    0%,
+    100% {
+        width: 0;
+    }
+    25%,
+    75% {
+        width: 70%;
+    }
+    48%,
+    50%,
+    55% {
+        width: 100%;
+    }
+    85% {
+        width: 30%;
+    }
+}
+.box h4 {
+    font-size: 20px;
+    text-shadow: 0 0 0.47em #fff;
+    letter-spacing: 0;
+    font-weight: 100;
+    margin: 25px;
+}
+#pipe {
+    color: #fff;
+    animation: 1s linear infinite blink;
+}
+@keyframes blink {
+    0% {
+        opacity: 100%;
+    }
+    50% {
+        opacity: 0%;
+    }
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+.box li {
+    display: inline-block;
+    margin: 0 6px 30px;
+    list-style: none;
+    transition: transform .6s; /* Animation */
+}
+.box li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+    transition: all-ease-in-out 250ms;
+}
+.box li a:hover {
+    color: #6f00ff;
+}
+
+.box li:hover {
+    transition: transform .2s; /* Animation */
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
+
+.spotify {
+    width: 30%;
+    height: 20%;
+    margin-left: 25%;
+    margin-top: -0.9%;
+}
+#discordapi {
+    width: 80%;
+    height: 12%;
+    margin-top: 0%;
+    margin-left: -3%;
+}
+.blurpage {
+    background: rgb(0 0 0/60%);
+    backdrop-filter: blur(30px);
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.blurpagerplc {
+    background: 0 0;
+    backdrop-filter: none;
+}
+.spark,
+.sparkle {
+    background-image: url(https://files.catbox.moe/eqshvz.gif);
+}
+.blurpagerplc2 {
+    width: 10%;
+    height: 10%;
+}
+.spark {
+    background-size: 100px 100px;
+}
+.inside {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: 700;
+}
+#enter {
+    transition: 1.3s ease-out;
+}
+.badge {
+    cursor: pointer;
+    margin: -30px 0 0;
+    filter: drop-shadow(0px 3px 5px rgba(0, 0, 0, 0.65));
+    width: 20px;
+    height: 20px;
+}
+@media (max-width: 1400px) {
+    .hover {
+        visibility: collapse;
+    }
+    .no-hover {
+        visibility: visible;
+    }
+    .box {
+        width: 300px;
+        height: 480px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        border-radius: 30px;
+        box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+        text-align: center;
+        margin: 30% 0 0;
+        color: #fff;
+        backdrop-filter: blur(10px);
+        position: center;
+        top: 50%;
+        left: 50%;
+    }
+    .box:hover {
+        
+    }
+    .c1 {
+        visibility: collapse;
+        display: none;
+    }
+    .p1 {
+        visibility: visible;
+        display: inline-block;
+    }
+    #discordapi {
+        width: 100%;
+        height: 12%;
+        margin-top: -1%;
+        margin-left: -4%;
+    }
+    .blurpage {
+        background: rgb(0 0 0/60%);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .blurpagerplc {
+        background: 0 0;
+        backdrop-filter: blur(100px);
+    }
+    .blurpagerplc2 {
+        width: 10%;
+        height: 10%;
+    }
+    .inside {
+        font-size: 17px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+}
+@media (max-width: 1000px) {
+    .hover {
+        visibility: collapse;
+    }
+    .no-hover {
+        visibility: visible;
+    }
+    .box {
+        width: 300px;
+        height: 480px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        border-radius: 30px;
+        box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+        text-align: center;
+        margin: 30% 0 0;
+        color: #fff;
+        backdrop-filter: blur(10px);
+        position: center;
+        top: 50%;
+        left: 56%;
+    }
+    .box:hover {
+        
+    }
+    .c1 {
+        visibility: collapse;
+        display: none;
+    }
+    .p1 {
+        visibility: visible;
+        display: inline-block;
+    }
+    #discordapi {
+        width: 100%;
+        height: 12%;
+        margin-top: -1%;
+        margin-left: -4%;
+    }
+    .blurpage {
+        background: rgb(0 0 0/60%);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .blurpagerplc {
+        background: 0 0;
+        backdrop-filter: blur(100px);
+    }
+    .blurpagerplc2 {
+        width: 10%;
+        height: 10%;
+    }
+    .inside {
+        font-size: 17px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+}
+@media (max-width: 1024px) and (min-width: 768px) {
+    .hover {
+        visibility: collapse;
+    }
+    .no-hover {
+        visibility: visible;
+    }
+    .box {
+        width: 500px;
+        height: 480px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        border-radius: 30px;
+        box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+        text-align: center;
+        margin: 15% 0 0;
+        color: #fff;
+        backdrop-filter: blur(10px);
+        position: center;
+        top: 50%;
+        left: 50%;
+    }
+    .box:hover {
+        
+    }
+    .c1 {
+        visibility: collapse;
+        display: none;
+    }
+    .p1 {
+        visibility: visible;
+        display: inline-block;
+    }
+    #discordapi {
+        width: 100%;
+        height: 12%;
+        margin-top: -1%;
+        margin-left: -4%;
+    }
+    .blurpage {
+        background: rgb(0 0 0/60%);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .blurpagerplc {
+        background: 0 0;
+        backdrop-filter: blur(100px);
+    }
+    .blurpagerplc2 {
+        width: 10%;
+        height: 10%;
+    }
+    .inside {
+        font-size: 17px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+}
+
+
+@media (max-width: 1364px) and (min-width: 896px) {
+    .hover {
+        visibility: collapse;
+    }
+    .no-hover {
+        visibility: visible;
+    }
+    .box {
+        width: 390px;
+        height: 480px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        border-radius: 30px;
+        box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+        text-align: center;
+        margin: 15% 0 0;
+        color: #fff;
+        backdrop-filter: blur(10px);
+        position: center;
+        top: 40%;
+        left: 50%;
+    }
+    .box:hover {
+        
+    }
+    .c1 {
+        visibility: collapse;
+        display: none;
+    }
+    .p1 {
+        visibility: visible;
+        display: inline-block;
+    }
+    #discordapi {
+        width: 100%;
+        height: 12%;
+        margin-top: -1%;
+        margin-left: -4%;
+    }
+    .blurpage {
+        background: rgb(0 0 0/60%);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .blurpagerplc {
+        background: 0 0;
+        backdrop-filter: blur(100px);
+    }
+    .blurpagerplc2 {
+        width: 10%;
+        height: 10%;
+    }
+    .inside {
+        font-size: 17px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+}
+
+
+
+@media (max-width: 1400px) and (min-width: 896px) {
+    .hover {
+        visibility: collapse;
+    }
+    .no-hover {
+        visibility: visible;
+    }
+    .box {
+        width: 390px;
+        height: 480px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        border-radius: 30px;
+        box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+        text-align: center;
+        margin: 15% 0 0;
+        color: #fff;
+        backdrop-filter: blur(10px);
+        position: center;
+        top: 40%;
+        left: 50%;
+    }
+    .box:hover {
+        
+    }
+    .c1 {
+        visibility: collapse;
+        display: none;
+    }
+    .p1 {
+        visibility: visible;
+        display: inline-block;
+    }
+    #discordapi {
+        width: 300px;
+        height: 12%;
+        margin-top: -1%;
+        margin-left: -4%;
+    }
+    .blurpage {
+        background: rgb(0 0 0/60%);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .blurpagerplc {
+        background: 0 0;
+        backdrop-filter: blur(100px);
+    }
+    .blurpagerplc2 {
+        width: 10%;
+        height: 10%;
+    }
+    .inside {
+        font-size: 17px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+}
+
+
+
+
+@media (max-width: 1024px) and (min-width: 600px) {
+    .hover {
+        visibility: collapse;
+    }
+    .no-hover {
+        visibility: visible;
+    }
+    .box {
+        width: 390px;
+        height: 480px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        border-radius: 30px;
+        box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+        text-align: center;
+        margin: 11% 0 0;
+        color: #fff;
+        backdrop-filter: blur(10px);
+        position: center;
+        top: 50%;
+        left: 50%;
+    }
+    .box:hover {
+        
+    }
+    .c1 {
+        visibility: collapse;
+        display: none;
+    }
+    .p1 {
+        visibility: visible;
+        display: inline-block;
+    }
+    #discordapi {
+        width: 100%;
+        height: 12%;
+        margin-top: -1%;
+        margin-left: -4%;
+    }
+    .blurpage {
+        background: rgb(0 0 0/60%);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .blurpagerplc {
+        background: 0 0;
+        backdrop-filter: blur(100px);
+    }
+    .blurpagerplc2 {
+        width: 10%;
+        height: 10%;
+    }
+    .inside {
+        font-size: 17px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+}
+@media (max-width: 1280px) and (min-width: 800px) {
+    .hover {
+        visibility: collapse;
+    }
+    .no-hover {
+        visibility: visible;
+    }
+    .box {
+        width: 390px;
+        height: 480px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        border-radius: 30px;
+        box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+        text-align: center;
+        margin: 11% 0 0;
+        color: #fff;
+        backdrop-filter: blur(10px);
+        position: center;
+        top: 50%;
+        left: 50%;
+    }
+    .box:hover {
+       
+    }
+    .c1 {
+        visibility: collapse;
+        display: none;
+    }
+    .p1 {
+        visibility: visible;
+        display: inline-block;
+    }
+    #discordapi {
+        width: 110%;
+        height: 17%;
+        margin-top: -2%;
+        margin-left: -4%;
+    }
+    .blurpage {
+        background: rgb(0 0 0/60%);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .blurpagerplc {
+        background: 0 0;
+        backdrop-filter: blur(100px);
+    }
+    .blurpagerplc2 {
+        width: 10%;
+        height: 10%;
+    }
+    .inside {
+        font-size: 17px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+}
+
+
+
+
+@media (max-width: 1180px) and (min-width: 820px) {
+    .hover {
+        visibility: collapse;
+    }
+    .no-hover {
+        visibility: visible;
+    }
+    .box {
+        width: 390px;
+        height: 480px;
+        background: rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+        padding: 40px;
+        border-radius: 30px;
+        text-align: center;
+        margin: 11% 0 0;
+        color: #fff;
+        backdrop-filter: blur(10px);
+        position: center;
+        top: 50%;
+        left: 50%;
+    }
+    .box:hover {
+        
+    }
+    .c1 {
+        visibility: collapse;
+        display: none;
+    }
+    .p1 {
+        visibility: visible;
+        display: inline-block;
+    }
+    #discordapi {
+        width: 82%;
+        height: 13%;
+        margin-top: -2%;
+        margin-left: -4%;
+    }
+    .blurpage {
+        background: rgb(0 0 0/60%);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .blurpagerplc {
+        background: 0 0;
+        backdrop-filter: blur(100px);
+    }
+    .blurpagerplc2 {
+        width: 10%;
+        height: 10%;
+    }
+    .inside {
+        font-size: 17px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+}
+
+
+
+@media (max-width: 1280px) and (min-width: 896px) {
+    .hover {
+        visibility: collapse;
+    }
+    .no-hover {
+        visibility: visible;
+    }
+    .box {
+        width: 390px;
+        height: 480px;
+        background: rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+        padding: 40px;
+        border-radius: 30px;
+        text-align: center;
+        margin: 11% 0 0;
+        color: #fff;
+        backdrop-filter: blur(10px);
+        position: center;
+        top: 50%;
+        left: 50%;
+    }
+    .box:hover {
+        
+    }
+    .c1 {
+        visibility: collapse;
+        display: none;
+    }
+    .p1 {
+        visibility: visible;
+        display: inline-block;
+    }
+    #discordapi {
+        width: 82%;
+        height: 13%;
+        margin-top: -2%;
+        margin-left: -4%;
+    }
+    .blurpage {
+        background: rgb(0 0 0/60%);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .blurpagerplc {
+        background: 0 0;
+        backdrop-filter: blur(100px);
+    }
+    .blurpagerplc2 {
+        width: 10%;
+        height: 10%;
+    }
+    .inside {
+        font-size: 17px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+}
+
+
+@media (max-width: 896px) and (min-width: 816px) {
+    .hover {
+        visibility: collapse;
+    }
+    .no-hover {
+        visibility: visible;
+    }
+    .box {
+        width: 390px;
+        height: 480px;
+        background: rgba(0, 0, 0, 0.4);
+        padding: 40px;
+        box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+        border-radius: 30px;
+        text-align: center;
+        margin: 11% 0 0;
+        color: #fff;
+        backdrop-filter: blur(10px);
+        position: center;
+        top: 50%;
+        left: 50%;
+    }
+    .box:hover {
+        
+    }
+    .c1 {
+        visibility: collapse;
+        display: none;
+    }
+    .p1 {
+        visibility: visible;
+        display: inline-block;
+    }
+    #discordapi {
+        width: 82%;
+        height: 13%;
+        margin-top: -2%;
+        margin-left: -4%;
+    }
+    .blurpage {
+        background: rgb(0 0 0/60%);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .blurpagerplc {
+        background: 0 0;
+        backdrop-filter: blur(100px);
+    }
+    .blurpagerplc2 {
+        width: 10%;
+        height: 10%;
+    }
+    .inside {
+        font-size: 17px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 896px) and (min-width: 600px) {
+    .hover {
+        visibility: collapse;
+    }
+    .no-hover {
+        visibility: visible;
+    }
+    .box {
+        width: 390px;
+        height: 480px;
+        background: rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+        padding: 40px;
+        border-radius: 30px;
+        text-align: center;
+        margin: 11% 0 0;
+        color: #fff;
+        backdrop-filter: blur(10px);
+        position: center;
+        top: 50%;
+        left: 50%;
+    }
+    .box:hover {
+        
+        
+    }
+    .c1 {
+        visibility: collapse;
+        display: none;
+    }
+    .p1 {
+        visibility: visible;
+        display: inline-block;
+    }
+    #discordapi {
+        width: 82%;
+        height: 13%;
+        margin-top: -2%;
+        margin-left: -4%;
+    }
+    .blurpage {
+        background: rgb(0 0 0/60%);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .blurpagerplc {
+        background: 0 0;
+        backdrop-filter: blur(100px);
+    }
+    .blurpagerplc2 {
+        width: 10%;
+        height: 10%;
+    }
+    .inside {
+        font-size: 17px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+}
+
+
+
+@media (max-width: 896px) and (min-width: 599px) {
+    .hover {
+        visibility: collapse;
+    }
+    .no-hover {
+        visibility: visible;
+    }
+    .box {
+        width: 370px;
+        height: 480px;
+        background: rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 400px rgba(255, 255, 255, 0.17);
+        padding: 40px;
+        border-radius: 30px;
+        text-align: center;
+        margin: 11% 0 0;
+        color: #fff;
+        backdrop-filter: blur(10px);
+        position: center;
+        top: 55%;
+        left: 50%;
+    }
+    .box:hover {
+        
+    }
+    .c1 {
+        visibility: collapse;
+        display: none;
+    }
+    .p1 {
+        visibility: visible;
+        display: inline-block;
+    }
+    #discordapi {
+        width: 82%;
+        height: 13%;
+        margin-top: -2%;
+        margin-left: -4%;
+    }
+    .blurpage {
+        background: rgb(0 0 0/60%);
+        -webkit-backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px);
+        position: fixed;
+        padding: 0;
+        margin: 0;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .blurpagerplc {
+        background: 0 0;
+        backdrop-filter: blur(100px);
+    }
+    .blurpagerplc2 {
+        width: 10%;
+        height: 10%;
+    }
+    .inside {
+        font-size: 17px;
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        cursor: pointer;
+        transition: 0.1s ease-out;
+        font-weight: 700;
+    }
+}
+
